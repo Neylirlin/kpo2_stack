@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab2_kpo_stack", "lab2_kpo_stack\lab2_kpo_stack.csproj", "{AE09F222-8F33-434D-99DD-E287EF55BACB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab2_kpo_stack_tests", "lab2_kpo_stack_tests\lab2_kpo_stack_tests.csproj", "{E06AC972-403A-4C1F-8DB0-32A8A5C6C5EA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{AE09F222-8F33-434D-99DD-E287EF55BACB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AE09F222-8F33-434D-99DD-E287EF55BACB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AE09F222-8F33-434D-99DD-E287EF55BACB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E06AC972-403A-4C1F-8DB0-32A8A5C6C5EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E06AC972-403A-4C1F-8DB0-32A8A5C6C5EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E06AC972-403A-4C1F-8DB0-32A8A5C6C5EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E06AC972-403A-4C1F-8DB0-32A8A5C6C5EA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

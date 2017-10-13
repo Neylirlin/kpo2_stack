@@ -1,0 +1,9 @@
+C:\Users\Miskovsky\Desktop\git\kpo2_stack\lab2_kpo_stack_tests\bin\Debug\lab2_kpo_stack_tests.dll
+C:\Users\Miskovsky\Desktop\git\kpo2_stack\lab2_kpo_stack_tests\bin\Debug\lab2_kpo_stack_tests.pdb
+C:\Users\Miskovsky\Desktop\git\kpo2_stack\lab2_kpo_stack_tests\bin\Debug\lab2_kpo_stack.exe
+C:\Users\Miskovsky\Desktop\git\kpo2_stack\lab2_kpo_stack_tests\bin\Debug\nunit.framework.dll
+C:\Users\Miskovsky\Desktop\git\kpo2_stack\lab2_kpo_stack_tests\bin\Debug\lab2_kpo_stack.pdb
+C:\Users\Miskovsky\Desktop\git\kpo2_stack\lab2_kpo_stack_tests\bin\Debug\nunit.framework.xml
+C:\Users\Miskovsky\Desktop\git\kpo2_stack\lab2_kpo_stack_tests\obj\Debug\lab2_kpo_stack_tests.csprojResolveAssemblyReference.cache
+C:\Users\Miskovsky\Desktop\git\kpo2_stack\lab2_kpo_stack_tests\obj\Debug\lab2_kpo_stack_tests.dll
+C:\Users\Miskovsky\Desktop\git\kpo2_stack\lab2_kpo_stack_tests\obj\Debug\lab2_kpo_stack_tests.pdb
