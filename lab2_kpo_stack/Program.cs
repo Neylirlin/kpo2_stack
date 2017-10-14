@@ -10,18 +10,22 @@ namespace lab2_kpo_stack
     {
         static void Main(string[] args)
         {
-            NodeStack<string> stack = new NodeStack<string>();
-            stack.Push("Tom");
-            stack.Push("Alice");
-            stack.Push("Bob");
-            stack.Push("Kate");
-
+            NodeStack<int> stack = new NodeStack<int>();
+            stack.Push(0);
+            stack.Push(1);
+            //
+            stack.Push(7);
+            stack.Push(2);
+            stack.Push(27);
+            stack.Push(22);
+            stack.Push(17);
+            stack.Push(12);
             foreach (var item in stack)
             {
                 Console.WriteLine(item);
             }
             Console.WriteLine("_____");
-            string header = stack.Peek();
+            int header = stack.Peek();
             Console.WriteLine($"Stack head: {header}");
             Console.WriteLine("_____");
             header = stack.Pop();
@@ -30,6 +34,25 @@ namespace lab2_kpo_stack
                 Console.WriteLine(item);
             }
             Console.WriteLine("______________________________________");
+
+            Console.WriteLine("Clone: ");
+            NodeStack<int> stack2 = (NodeStack<int>)stack.Clone();
+
+            foreach (var i in stack)
+            {
+                Console.WriteLine(i);
+            }
+            Console.WriteLine("_____");
+            int header2 = stack.Peek();
+            Console.WriteLine($"Stack head: {header2}");
+            Console.WriteLine("_____");
+            header2 = stack.Pop();
+            foreach (var i in stack)
+            {
+                Console.WriteLine(i);
+            }
+            Console.WriteLine("______________________________________");
+
             Console.ReadKey();
         }
     }

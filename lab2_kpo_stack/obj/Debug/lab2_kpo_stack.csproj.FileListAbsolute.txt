@@ -7,3 +7,10 @@ C:\Users\Miskovsky\Desktop\git\kpo2_stack\lab2_kpo_stack\bin\Debug\nunit.framewo
 C:\Users\Miskovsky\Desktop\git\kpo2_stack\lab2_kpo_stack\obj\Debug\lab2_kpo_stack.csprojResolveAssemblyReference.cache
 C:\Users\Miskovsky\Desktop\git\kpo2_stack\lab2_kpo_stack\obj\Debug\lab2_kpo_stack.exe
 C:\Users\Miskovsky\Desktop\git\kpo2_stack\lab2_kpo_stack\obj\Debug\lab2_kpo_stack.pdb
+C:\Users\ACER\Desktop\3kpo\kpo2_stack\lab2_kpo_stack\bin\Debug\lab2_kpo_stack.exe.config
+C:\Users\ACER\Desktop\3kpo\kpo2_stack\lab2_kpo_stack\obj\Debug\lab2_kpo_stack.exe
+C:\Users\ACER\Desktop\3kpo\kpo2_stack\lab2_kpo_stack\obj\Debug\lab2_kpo_stack.pdb
+C:\Users\ACER\Desktop\3kpo\kpo2_stack\lab2_kpo_stack\bin\Debug\lab2_kpo_stack.exe
+C:\Users\ACER\Desktop\3kpo\kpo2_stack\lab2_kpo_stack\bin\Debug\lab2_kpo_stack.pdb
+C:\Users\ACER\Desktop\3kpo\kpo2_stack\lab2_kpo_stack\bin\Debug\nunit.framework.xml
+C:\Users\ACER\Desktop\3kpo\kpo2_stack\lab2_kpo_stack\obj\Debug\lab2_kpo_stack.csprojResolveAssemblyReference.cache

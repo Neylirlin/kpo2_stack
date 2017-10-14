@@ -17,7 +17,7 @@ namespace lab2_kpo_stack
         public Node<T> Next { get; set; }
     }
 
-    public class NodeStack<T> : IEnumerable<T>
+    public class NodeStack<T> : IStack<T>, IEnumerable<T>, ICloneable
     {
         Node<T> head;
         int count;
@@ -65,6 +65,7 @@ namespace lab2_kpo_stack
                 return head.Data;
             }
         }
+        //--------------------------------------------------------
         IEnumerator<T> IEnumerable<T>.GetEnumerator()
         {
             Node<T> current = head;
@@ -78,5 +79,14 @@ namespace lab2_kpo_stack
         {
             return ((IEnumerable)this).GetEnumerator();
         }
+        //-------------------------------------------------------
+
+        public object Clone() //поверхностное (неглубокое) копирование
+        {
+            return this.MemberwiseClone();
+        }
+
+        //-------------------------------------------------------
+
     }
 }
