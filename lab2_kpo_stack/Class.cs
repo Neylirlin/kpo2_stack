@@ -65,6 +65,12 @@ namespace lab2_kpo_stack
                 return head.Data;
             }
         }
+
+        internal int Mul()
+        {
+            throw new NotImplementedException();
+        }
+
         //--------------------------------------------------------
         IEnumerator<T> IEnumerable<T>.GetEnumerator()
         {
@@ -85,8 +91,8 @@ namespace lab2_kpo_stack
         {
             return this.MemberwiseClone();
         }
-
         //-------------------------------------------------------
 
     }
+    
 }

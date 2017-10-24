@@ -7,3 +7,11 @@ C:\Users\Miskovsky\Desktop\git\kpo2_stack\lab2_kpo_stack_tests\bin\Debug\nunit.f
 C:\Users\Miskovsky\Desktop\git\kpo2_stack\lab2_kpo_stack_tests\obj\Debug\lab2_kpo_stack_tests.csprojResolveAssemblyReference.cache
 C:\Users\Miskovsky\Desktop\git\kpo2_stack\lab2_kpo_stack_tests\obj\Debug\lab2_kpo_stack_tests.dll
 C:\Users\Miskovsky\Desktop\git\kpo2_stack\lab2_kpo_stack_tests\obj\Debug\lab2_kpo_stack_tests.pdb
+C:\Users\ACER\Desktop\3kpo\kpo2_stack\lab2_kpo_stack_tests\bin\Debug\lab2_kpo_stack_tests.dll
+C:\Users\ACER\Desktop\3kpo\kpo2_stack\lab2_kpo_stack_tests\bin\Debug\lab2_kpo_stack_tests.pdb
+C:\Users\ACER\Desktop\3kpo\kpo2_stack\lab2_kpo_stack_tests\bin\Debug\lab2_kpo_stack.exe
+C:\Users\ACER\Desktop\3kpo\kpo2_stack\lab2_kpo_stack_tests\bin\Debug\lab2_kpo_stack.pdb
+C:\Users\ACER\Desktop\3kpo\kpo2_stack\lab2_kpo_stack_tests\bin\Debug\nunit.framework.xml
+C:\Users\ACER\Desktop\3kpo\kpo2_stack\lab2_kpo_stack_tests\obj\Debug\lab2_kpo_stack_tests.csprojResolveAssemblyReference.cache
+C:\Users\ACER\Desktop\3kpo\kpo2_stack\lab2_kpo_stack_tests\obj\Debug\lab2_kpo_stack_tests.dll
+C:\Users\ACER\Desktop\3kpo\kpo2_stack\lab2_kpo_stack_tests\obj\Debug\lab2_kpo_stack_tests.pdb

@@ -8,26 +8,38 @@ namespace lab2_kpo_stack
 {
     class Program
     {
+        public static int Max(NodeStack<int> stack)
+        {
+            int max = stack.Peek();
+            foreach (int x in stack)
+            {
+                max = x;
+            }
+            return max;
+        }
+
         static void Main(string[] args)
         {
             NodeStack<int> stack = new NodeStack<int>();
-            stack.Push(0);
-            stack.Push(1);
-            //
-            stack.Push(7);
+
+            stack.Push(-1);
+            stack.Push(-2);
+            stack.Push(3);
+            stack.Push(-3);
             stack.Push(2);
-            stack.Push(27);
-            stack.Push(22);
-            stack.Push(17);
-            stack.Push(12);
+            stack.Push(4);
+
             foreach (var item in stack)
             {
                 Console.WriteLine(item);
             }
+
             Console.WriteLine("_____");
+
             int header = stack.Peek();
             Console.WriteLine($"Stack head: {header}");
             Console.WriteLine("_____");
+
             header = stack.Pop();
             foreach (var item in stack)
             {
@@ -42,16 +54,18 @@ namespace lab2_kpo_stack
             {
                 Console.WriteLine(i);
             }
-            Console.WriteLine("_____");
-            int header2 = stack.Peek();
-            Console.WriteLine($"Stack head: {header2}");
-            Console.WriteLine("_____");
-            header2 = stack.Pop();
-            foreach (var i in stack)
-            {
-                Console.WriteLine(i);
-            }
             Console.WriteLine("______________________________________");
+
+
+            int max = stack.Max();
+
+            foreach (int m in stack)
+            {
+                Console.WriteLine(m);
+            }
+
+            Console.WriteLine();
+            Console.WriteLine("Max: " + max);
 
             Console.ReadKey();
         }

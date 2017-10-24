@@ -100,5 +100,8 @@ namespace lab2_kpo_stack_tests
             string excerted = "Стек пуст";
             Assert.AreEqual(excerted, actual);
         }
+
+        //3
+
     }
 }
