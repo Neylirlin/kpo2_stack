@@ -91,6 +91,7 @@ namespace lab2_kpo_stack_tests
             string excerted = "E";
             Assert.AreEqual(excerted, actual);
         }
+
         [Test()]
         [ExpectedException(typeof(InvalidOperationException))]
         public void TestPeekException()
@@ -100,8 +101,55 @@ namespace lab2_kpo_stack_tests
             string excerted = "Стек пуст";
             Assert.AreEqual(excerted, actual);
         }
+        [Test()]
+        public void Max_Test()
+        {
+            NodeStack<int> stack = new NodeStack<int>();
+            stack.Push(2);
+            stack.Push(3);
+            stack.Push(-1);
+            stack.Push(-2);
+            stack.Push(1);
+            int max = stack.Max();
 
-        //3
+            foreach (int m in stack)
+            {
+                Console.WriteLine(m);
+            }
+            int actual = max;
+            int excerted = 3;
+            Assert.AreEqual(excerted, actual);
+        }
+        [Test()]
+        public void Max_Test2()
+        {
+            NodeStack<int> stack = new NodeStack<int>();
+            stack.Push(-5);
+            stack.Push(-3);
+            stack.Push(-1);
+            stack.Push(-2);
+            stack.Push(-4);
+            int max = stack.Max();
+
+            foreach (int m in stack)
+            {
+                Console.WriteLine(m);
+            }
+            int actual = max;
+            int excerted = -1;
+            Assert.AreEqual(excerted, actual);
+        }
+        [Test()]
+        [ExpectedException(typeof(InvalidOperationException))]
+        public void Max_Test_Exception()
+        {
+            NodeStack<int> stack = new NodeStack<int>();
+            int actual = stack.Max();
+            int excerted = 0;
+            Assert.AreEqual(excerted, actual);
+        }
+
+
 
     }
 }
