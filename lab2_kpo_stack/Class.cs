@@ -16,12 +16,10 @@ namespace lab2_kpo_stack
         public T Data { get; set; }
         public Node<T> Next { get; set; }
     }
-
     public class NodeStack<T> : IStack<T>, IEnumerable<T>, ICloneable
     {
         Node<T> head;
         int count;
-
         public bool IsEmpty
         {
             get { return count == 0; }
@@ -30,7 +28,6 @@ namespace lab2_kpo_stack
         {
             get { return count; }
         }
-
         public void Push(T item)
         {
             // увеличиваем стек
@@ -65,12 +62,10 @@ namespace lab2_kpo_stack
                 return head.Data;
             }
         }
-
         internal int Mul()
         {
             throw new NotImplementedException();
         }
-
         //--------------------------------------------------------
         IEnumerator<T> IEnumerable<T>.GetEnumerator()
         {
@@ -86,13 +81,10 @@ namespace lab2_kpo_stack
             return ((IEnumerable)this).GetEnumerator();
         }
         //-------------------------------------------------------
-
         public object Clone() //поверхностное (неглубокое) копирование
         {
             return this.MemberwiseClone();
         }
         //-------------------------------------------------------
-
     }
-    
 }

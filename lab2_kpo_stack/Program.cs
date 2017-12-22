@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Runtime.Serialization;
+using System.Runtime.Serialization.Json;
 
 namespace lab2_kpo_stack
 {
@@ -66,6 +68,26 @@ namespace lab2_kpo_stack
 
             Console.WriteLine();
             Console.WriteLine("Max: " + max);
+            Console.WriteLine("______________________________________");
+
+            Data d = new Data();
+            Person person1 = new Person("Lina", 14);
+            Person person2 = new Person("Alica", 21);
+            Person person3 = new Person("Kate", 25);
+            Person person4 = new Person("Zoe", 8);
+            Person person5 = new Person("Lux", 20);
+            Person person6 = new Person("Karolina", 15);
+            NodeStack<Person> persons = new NodeStack<Person>();
+            persons.Push(person1);
+            persons.Push(person2);
+            persons.Push(person3);
+            persons.Push(person4);
+            persons.Push(person5);
+            persons.Push(person6);
+
+            d.Serialization(persons);
+
+            NodeStack<Person> new_stack = d.Deserialization("person.json");
 
             Console.ReadKey();
         }
